@@ -1675,3 +1675,12 @@ Card Component */
 .pr-main-heading:after {
   margin-left: 1rem;
 }
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .login-card {
+    padding: 24px;
+    margin: 20px 0;
+  }
+}
