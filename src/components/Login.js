@@ -1,8 +1,10 @@
 import React from "react";
 import { Button, Card, Form, FormGroup, Input, Label } from "reactstrap";
 import axiosInstance from "../api";
+import { useHistory } from "react-router-dom";
 
 const Login = () => {
+  const history = useHistory();
   const onFormSubmit = (e) => {
     const {
       target: { email, password },
@@ -17,6 +19,7 @@ const Login = () => {
         data: { token },
       } = res.data;
       localStorage.setItem("token", token);
+      history.replace("/dashboard");
     });
   };
   return (

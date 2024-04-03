@@ -12,6 +12,8 @@ import Page404 from "./components/404";
 import Login from "./components/Login";
 import IndustryLogin from "./components/IndustryLogin";
 import Schedule from "./components/Schedule";
+import Dashboard from "./components/Dashboard";
+import AdminDashboard from "./components/AdminDashboard";
 
 class App extends Component {
   render() {
@@ -27,6 +29,8 @@ class App extends Component {
             <Route path="/login" exact component={Login} />
             <Route path="/industry/login" exact component={IndustryLogin} />
             <Route path="/schedule" exact component={Schedule} />
+            <Route path="/dashboard" exact component={Dashboard} />
+            <Route path="/admin/dashboard" exact component={AdminDashboard} />
             <Route to="/404" component={Page404} />
           </Switch>
         </div>
