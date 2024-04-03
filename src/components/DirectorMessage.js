@@ -1,44 +1,38 @@
 import React from "react";
 
-const MessageD = props => (
+const MessageD = (props) => (
   <div>
     <h1 className="msgh">Director's Message</h1>
 
     <p className="msgp">
-      Evolving a brand-name takes years of nurturing, hard work and passion.
-      IIIT Lucknow, which started its journey in 2015, has brought in the
-      culture of innovation among its students. These students have received
-      training that is ‘deep in depth’, yet ‘wide in breadth’. Such training has
-      moulded them into better qualified professionals.
+      A warm welcome to all students at the institute. We establish the overall
+      development of the students by providing world-class technical education
+      and Organizing various technical and non-technical programs, including
+      workshops, seminars, expert lectures, conferences, hands-on training, tech
+      fest, symposiums, technical paper presentations, poster presentations,
+      cultural events, sports, and more..
     </p>
     <br />
     <p className="msgp">
-      At the Indian Institute of Information Technology Lucknow, we are
-      committed to playing a key role in creating an ambience for the creation
-      of new ideas, knowledge and graduates who will be tech-leaders of
-      tomorrow.
+      Our institute has state-of-the-art infrastructure, including well-equipped
+      labs, crematories with high-tech equipment, advanced computer labs with
+      high bandwidth Wi-Fi, comprehensive learning resources, supporting admin
+      staff, and committed, well-qualified faculties. We foster an excellent
+      academic research culture that keeps our faculties and students updated
+      with the latest developments in their respective fields. Our training
+      placement cell works tirelessly on on-campus recruitment, providing career
+      counselling and training to our students to help them achieve their goals.
     </p>
     <br />
     <p className="msgp">
-      {" "}
-      We are convinced that in order to make significant contributions to the
-      development of the country and to the improvement in quality of life of
-      its citizens, we will need to pursue a strategy that fosters creativity,
-      supports interdisciplinary research and education. This will provide the
-      students with an understanding and appreciation not only of the process of
-      knowledge creation, but also of the process by which technology and
-      knowledge may be used to create wealth as well as achieve social and
-      economic goals.
+      CGPIT is the best place to get a quality education, and we are committed
+      to providing our students with the best possible learning experience.
     </p>
     <br />
-    <p className="msgp">
-      Therefore, I am quite confident that our students shall perform the best
-      on any platform and do justice to the trust placed on them.
-    </p>
     <br />
-    <p className="cred">Dr. Arun Mohan Sherry</p>
+    <p className="cred">Prof. B. M. Vadher</p>
     <p className="cred" style={{ marginBottom: "2vw" }}>
-      Director, IIIT Luckow
+      Director, CGPIT.
     </p>
   </div>
 );

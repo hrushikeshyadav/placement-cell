@@ -1,31 +1,32 @@
 import React from "react";
 const About = (props) => (
   <div style={{ backgroundColor: "white" }}>
-    <h1 className="abt1">Welcome To IIIT Lucknow</h1>
-    <h3 className="abt3">(An Institute Of National Importance)</h3>
+    <h1 className="abt1">Welcome To CGPIT</h1>
     <div className="about-text-wrapper">
       <div className="abt-text">
         <p>
-          Indian Institute of Information Technology, Lucknow (IIIT Lucknow) is
-          one of the 20 IIITs being set up by the Central Government in Public
-          Private Partnership (PPP) mode. IIIT Lucknow admitted its first batch
-          of B. Tech. in Information Technology with an intake of 50 students
-          w.e.f. the academic session 2015-16. It currently offers all the
-          amenities ,academic and non-academic to its students that can help
-          them flourish and serve the nation with all their apprehension in the
-          various fields of technology. The admission is made through central
-          counselling of candidates who qualify in JEE (Mains).
+          <b>INSTITUTE VISION</b>
+          <br />
+          Social upliftment of the community in general and rural community in
+          particular through the spread of technical education, research,
+          training and consultancy services.
         </p>
         <p>
-          The Institute is being set up with the financial contributions of
-          MHRD, Govt. of India, Govt. of Uttar Pradesh, and U. P. Electronics
-          Corporation Ltd. as industry partners. The mission of IIIT Lucknow is
-          to be a unique and world class nucleating “Apex Center of Excellence”
-          in the area of Information Technology so as to enhance India’s
-          Technological strength in Information Technology . IIIT seeks to
-          derive its strength from a linkage with sound Indian traditions of
-          centuries past, and sets out to create knowledge-based resources in
-          regional languages.
+          <b>INSTITUTE MISSION</b>
+          <br />
+          To provide value-based technical education for mental, physical, moral
+          and spiritual development of the students and to promote increased use
+          of science & technology in the day to day life through training and R
+          & D activities.
+        </p>
+        <p>
+          <b>QUALITY POLICY</b>
+          <br />
+          We at Chhotubhai Gopalbhai Patel Institute of Technology are committed
+          to build a better nation through Quality Education with team spirit.
+          Out students are enabled to excel in all values of Life and become
+          Good Citizens. We continually improve the System, Infrastructure and
+          Services to satisfy the Students, Parents, Industry and society.
         </p>
       </div>
     </div>

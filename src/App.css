@@ -1238,6 +1238,7 @@ me .placement-team-heading {
 .about-text-wrapper {
   display: flex;
   justify-content: center;
+  margin-bottom: 3vw;
 }
 
 .abt-text p {
