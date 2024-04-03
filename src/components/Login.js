@@ -1,10 +1,23 @@
 import React from "react";
 import { Button, Card, Form, FormGroup, Input, Label } from "reactstrap";
+import axiosInstance from "../api";
 
 const Login = () => {
   const onFormSubmit = (e) => {
+    const {
+      target: { email, password },
+    } = e;
     e.preventDefault();
-    console.log(e.target.email.value, e.target.password.value);
+    const data = {
+      email: email.value,
+      password: password.value,
+    };
+    axiosInstance.post("/students/login", data).then((res) => {
+      const {
+        data: { token },
+      } = res.data;
+      localStorage.setItem("token", token);
+    });
   };
   return (
     <div className="login">

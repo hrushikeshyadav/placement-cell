@@ -3,18 +3,18 @@ import { NavLink, Link } from "react-router-dom";
 class SideDrawer extends React.Component {
   state = {
     showDropDownAcademics: false,
-    showDropdownStatistics: false
+    showDropdownStatistics: false,
   };
   handleDropDownAcademics = () => {
-    this.setState(cs => ({
+    this.setState((cs) => ({
       showDropDownAcademics: !cs.showDropDownAcademics,
-      showDropdownStatistics: false
+      showDropdownStatistics: false,
     }));
   };
   handleDropdownStatistics = () => {
-    this.setState(cs => ({
+    this.setState((cs) => ({
       showDropdownStatistics: !cs.showDropdownStatistics,
-      showDropDownAcademics: false
+      showDropDownAcademics: false,
     }));
   };
   render() {
@@ -25,7 +25,7 @@ class SideDrawer extends React.Component {
         <div className="side">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
             <span onClick={this.props.click} className="sidebar-logo-text">
-              IIIT Lucknow Placement Cell
+              CGPIT Placement Cell
             </span>
           </Link>
           <span className="cross-btn" onClick={this.props.click}>
@@ -39,88 +39,18 @@ class SideDrawer extends React.Component {
             </NavLink>
           </li>
           <li onClick={this.props.click}>
-            <NavLink to="/our-recruiters" exact className="activeclass">
-              Our Recruiters
-            </NavLink>
-          </li>
-          <li className="activeclass" onClick={this.handleDropDownAcademics}>
-            Academics <i className="fa fa-caret-down" />
-          </li>
-          {this.state.showDropDownAcademics ? (
-            <ul className="drp-down">
-              <li
-                onClick={() => this.props.click(this.handleDropDownAcademics)}
-                className="activeclass"
-              >
-                <NavLink to="/courses" exact className="activeclass">
-                  Courses
-                </NavLink>
-              </li>
-              <li
-                onClick={() => this.props.click(this.handleDropDownAcademics)}
-                className="activeclass"
-              >
-                <NavLink to="/demographics" exact className="activeclass">
-                  Demographics
-                </NavLink>
-              </li>
-            </ul>
-          ) : null}
-
-          <li className="activeclass" onClick={this.handleDropdownStatistics}>
-            Statistics <i className="fa fa-caret-down" />
-          </li>
-          {this.state.showDropdownStatistics ? (
-            <ul className="drp-down">
-              <li
-                onClick={() => this.props.click(this.handleDropdownStatistics)}
-                className="activeclass"
-              >
-                <NavLink to="/placement-stats-2022" exact className="activeclass">
-                  Placement Stats 2022
-              </NavLink>
-              </li>
-              <li
-                onClick={() => this.props.click(this.handleDropdownStatistics)}
-                className="activeclass"
-              >
-                <NavLink to="/placement-stats-2021" exact className="activeclass">
-                  Placement Stats 2021
-              </NavLink>
-              </li>
-              <li
-                onClick={() => this.props.click(this.handleDropdownStatistics)}
-                className="activeclass"
-              >
-                <NavLink to="/placement-stats-2020" exact className="activeclass">
-                  Placement Stats 2020
-              </NavLink>
-              </li>
-              <li
-                onClick={() => this.props.click(this.handleDropdownStatistics)}
-                className="activeclass"
-              >
-                <NavLink to="/placement-stats-2019" exact className="activeclass">
-                  Placement Stats 2019
-              </NavLink>
-              </li>
-            </ul>
-          ) : null}
-
-
-          <li onClick={this.props.click}>
-            <NavLink to="/why-iiitl" exact className="activeclass">
-              Why Us
+            <NavLink to="/schedule" exact className="activeclass">
+              Schedule
             </NavLink>
           </li>
           <li onClick={this.props.click}>
-            <NavLink to="/procedure-and-policies" exact className="activeclass">
-              Procedure
+            <NavLink to="/industry/login" exact className="activeclass">
+              Industry Registration
             </NavLink>
           </li>
           <li onClick={this.props.click}>
-            <NavLink to="/contact-us" exact className="activeclass">
-              Contact Us
+            <NavLink to="/login" exact className="activeclass">
+              Login
             </NavLink>
           </li>
         </ul>

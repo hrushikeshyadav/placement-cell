@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import ContactUs from "./components/ContactUs";
 import DirectorMessage from "./components/DirectorMessage";
 import TpoMessage from "./components/TpoMessage";
 import AboutUs from "./components/aboutUs";
@@ -22,7 +21,6 @@ class App extends Component {
         <div className="main-page">
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/contact-us" exact component={ContactUs} />
             <Route path="/message/director" exact component={DirectorMessage} />
             <Route path="/message/tpo" exact component={TpoMessage} />
             <Route path="/about-us" exact component={AboutUs} />
