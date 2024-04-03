@@ -18,6 +18,11 @@ const Toolbar = (props) => (
               About Us
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/login" exact className="activeclass">
+              Login
+            </NavLink>
+          </li>
           <li className="dropdownmenu">
             <button className="dropbtn">
               <span>Academics </span>
