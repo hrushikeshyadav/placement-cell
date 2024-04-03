@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import ToggleButton from "./ToggleButton";
-const Toolbar = props => (
+const Toolbar = (props) => (
   <header className="toolbar">
     <nav className="toolbar_navigation">
       <div>
@@ -16,6 +16,11 @@ const Toolbar = props => (
           <li>
             <NavLink to="/about-us" exact className="activeclass">
               About Us
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/login" exact className="activeclass">
+              Login
             </NavLink>
           </li>
           <li className="dropdownmenu">
@@ -43,7 +48,7 @@ const Toolbar = props => (
               <i className="fa fa-caret-down" />
             </button>
             <div className="dropdown-content">
-            <NavLink to="/placement-stats-2022" exact className="activeclass">
+              <NavLink to="/placement-stats-2022" exact className="activeclass">
                 Placement Stats 2022
               </NavLink>
               <NavLink to="/placement-stats-2021" exact className="activeclass">
@@ -57,7 +62,7 @@ const Toolbar = props => (
               </NavLink>
             </div>
           </li>
-          
+
           <li>
             <NavLink to="/why-iiitl" exact className="activeclass">
               Why Us
