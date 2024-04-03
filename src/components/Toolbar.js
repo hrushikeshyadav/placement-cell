@@ -23,61 +23,6 @@ const Toolbar = (props) => (
               Login
             </NavLink>
           </li>
-          <li className="dropdownmenu">
-            <button className="dropbtn">
-              <span>Academics </span>
-              <i className="fa fa-caret-down" />
-            </button>
-            <div className="dropdown-content">
-              <NavLink to="/courses" exact className="activeclass">
-                Courses
-              </NavLink>
-              <NavLink to="/demographics" exact className="activeclass">
-                Demographics
-              </NavLink>
-            </div>
-          </li>
-          <li>
-            <NavLink to="/our-recruiters" exact className="activeclass">
-              Our Recruiters
-            </NavLink>
-          </li>
-          <li className="dropdownmenu">
-            <button className="dropbtn">
-              <span>Statistics </span>
-              <i className="fa fa-caret-down" />
-            </button>
-            <div className="dropdown-content">
-              <NavLink to="/placement-stats-2022" exact className="activeclass">
-                Placement Stats 2022
-              </NavLink>
-              <NavLink to="/placement-stats-2021" exact className="activeclass">
-                Placement Stats 2021
-              </NavLink>
-              <NavLink to="/placement-stats-2020" exact className="activeclass">
-                Placement Stats 2020
-              </NavLink>
-              <NavLink to="/placement-stats-2019" exact className="activeclass">
-                Placement Stats 2019
-              </NavLink>
-            </div>
-          </li>
-
-          <li>
-            <NavLink to="/why-iiitl" exact className="activeclass">
-              Why Us
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/procedure-and-policies" exact className="activeclass">
-              Procedure
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact-us" exact className="activeclass">
-              Contact Us
-            </NavLink>
-          </li>
         </ul>
       </div>
     </nav>
