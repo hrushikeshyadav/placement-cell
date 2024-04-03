@@ -19,6 +19,16 @@ const Toolbar = (props) => (
             </NavLink>
           </li>
           <li>
+            <NavLink to="/schedule" exact className="activeclass">
+              Schedule
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/industry/login" exact className="activeclass">
+              Industry Registration
+            </NavLink>
+          </li>
+          <li>
             <NavLink to="/login" exact className="activeclass">
               Login
             </NavLink>
