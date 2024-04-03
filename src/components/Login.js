@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Form, FormGroup, Input, Label } from "reactstrap";
+import { Button, Card, Form, FormGroup, Input, Label } from "reactstrap";
 
 const Login = () => {
   const onFormSubmit = (e) => {
@@ -7,28 +7,32 @@ const Login = () => {
     console.log(e.target.email.value, e.target.password.value);
   };
   return (
-    <Form onSubmit={onFormSubmit}>
-      <FormGroup>
-        <Label for="exampleEmail">Email</Label>
-        <Input
-          id="exampleEmail"
-          name="email"
-          placeholder="with a placeholder"
-          type="email"
-        />
-      </FormGroup>
-      <FormGroup>
-        <Label for="examplePassword">Password</Label>
-        <Input
-          id="examplePassword"
-          name="password"
-          placeholder="password placeholder"
-          type="password"
-        />
-      </FormGroup>
+    <div className="login">
+      <Card className="login-card">
+        <Form onSubmit={onFormSubmit}>
+          <FormGroup>
+            <Label for="exampleEmail">Email</Label>
+            <Input
+              id="exampleEmail"
+              name="email"
+              placeholder="email"
+              type="email"
+            />
+          </FormGroup>
+          <FormGroup>
+            <Label for="examplePassword">Password</Label>
+            <Input
+              id="examplePassword"
+              name="password"
+              placeholder="password"
+              type="password"
+            />
+          </FormGroup>
 
-      <Button type="submit">Submit</Button>
-    </Form>
+          <Button type="submit">Submit</Button>
+        </Form>
+      </Card>
+    </div>
   );
 };
 
