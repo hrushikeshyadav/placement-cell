@@ -1,9 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import brochurePdf from "../assets/Placement_brochure.pdf";
-import jnf from "../assets/JNF 2022-23 IIIT Lucknow.docx";
-import kushal from "../assets/team22/kushal.jpeg";
-import anu from "../assets/team22/anu.jpg";
+import person from "../assets/images/personRound.jpeg";
 
 const footer = () => {
   return (
@@ -14,81 +10,50 @@ const footer = () => {
             <div className="footer-col">
               <h2>Contact Us</h2>
               <p>
-                IIIT Lucknow
+                Chhotubhai Gopalbhai Patel Institute of Technology
                 <br />
-                Chak Ganjaria, C. G. City
                 <br />
-                Lucknow – 226002
+                Maliba Campus, Gopal Vidyanagar,
+                <br />
+                Bardoli Mahuva Road, TARSADI
+                <br />
+                Dist: Surat - 394350, Gujarat (INDIA)
               </p>
               <p>
-                <a href="mailto:placements@iiitl.ac.in">
-                  placements@iiitl.ac.in
-                </a>
+                <a href="mailto:placement@utu.ac.in">placement@utu.ac.in</a>
               </p>
             </div>
             <div className="footer-col-parent">
-              <a href="https://www.linkedin.com/in/kushal-reddy-3101231b5/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
-                <img src={kushal} alt={"kushal"} className="footer-img"/>
-              </a>
+              <img src={person} alt={"nita"} className="footer-img" />
               <div className="footer-col">
-                <p className="footer-contact-name">R. Kushal Reddy</p>
-                <p className="footer-contact-position">Overall Placement Coordinator</p>
-                <p>
-                  <a href="tel:+91-8094123615">+91-9059110999</a>
+                <p className="footer-contact-name">Prof. Nita Patil</p>
+                <p className="footer-contact-position">
+                  Co-chairman & Placement Co-ordinator
                 </p>
-                <p> 
-                  <a href="mailto:placements@iiitl.ac.in">
-                    placements@iiitl.ac.in
-                  </a>
+                <p>
+                  <a href="tel:+91-99135 49678">+91-99135 49678</a>
+                </p>
+                <p>
+                  <a href="mailto:nita.patil@utu.ac.in">nita.patil@utu.ac.in</a>
                 </p>
               </div>
             </div>
             <div className="footer-col-parent">
-              <a href="https://www.linkedin.com/in/anu-kumari-401464197/" target="_blank" rel="noopener noreferrer">
-              <img src={anu} alt={"anu"} className="footer-img"/>
-              </a>
+              <img src={person} alt={"krupa"} className="footer-img" />
               <div className="footer-col">
-                <p className="footer-contact-name">Anu Kumari</p>
-                <p className="footer-contact-position">Placement Executive</p>
-                <p>
-                  <a href="tel:+91-8094123615">+91-9324121272</a>
+                <p className="footer-contact-name">Prof. Krupa Patel </p>
+                <p className="footer-contact-position">
+                  Co-chairman & corporate relation ambassador
                 </p>
-                <p> 
-                  <a href="mailto:placements@iiitl.ac.in">
-                    placements@iiitl.ac.in
+                <p>
+                  <a href="tel:+91-97257 98030">+91-97257 98030</a>
+                </p>
+                <p>
+                  <a href="mailto:krupa.patel@utu.ac.in">
+                    krupa.patel@utu.ac.in
                   </a>
                 </p>
               </div>
-            </div>
-            <div className="footer-col">
-              <h2>Links</h2>
-              <p>
-                <a
-                  href="https://www.ncs.gov.in/Pages/default.aspx"
-                  target="blank"
-                >
-                  National Career Service
-                </a>
-              </p>
-              <p>
-                <a href={brochurePdf} target="blank">
-                  Brochure
-                </a>
-              </p>
-              <p>
-                <a href={jnf} target="blank">
-                  Job Notification form
-                </a>
-              </p>
-              <p>
-                <Link to="/courses">Academics</Link>
-              </p>
-              <p>
-                <Link to="/facilities">Facilities</Link>
-              </p>
-              <p>
-                <Link to="/alumni-speaks">Alumni Speaks</Link>
-              </p>
             </div>
           </div>
         </div>
@@ -96,33 +61,8 @@ const footer = () => {
 
       <div className="footer-copyright">
         <p>
-          ALL RIGHTS RESERVED © 2021. <strong>IIIT LUCKNOW.</strong> (Developed
-          & Managed By -{" "}
-          <a href="https://www.linkedin.com/in/blurry-x-face/" target="none">
-            Rishabh
-          </a>
-          , {" "}
-           <a
-            href="https://www.linkedin.com/in/narendra-singh-139b5219a/"
-            target="none"
-          >
-            Narendra 
-          </a>, {" "}
-           <a
-            href="https://www.linkedin.com/in/harshdeep-061661193/x"
-            target="none"
-          >
-            Harshdeep
-          </a>
-          ,{"  "}
-          <a href="https://www.linkedin.com/in/vinamrbajaj/" target="none">
-            Vinamr 
-          </a>
-          , {" "}
-          <a href="https://www.linkedin.com/in/rktejesh/" target="none">
-            Tejesh 
-          </a>
-          )
+          ALL RIGHTS RESERVED © 2017. <strong>CGPIT.</strong> (Designed by Parth
+          Shah, Ex-Member and CGPIT website committee)
         </p>
       </div>
     </footer>

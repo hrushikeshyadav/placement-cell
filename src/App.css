@@ -433,7 +433,6 @@ body {
   position: relative;
   height: 200px;
   border-radius: 50%;
-  
 }
 
 .snip1559 figcaption {
@@ -1239,6 +1238,7 @@ me .placement-team-heading {
 .about-text-wrapper {
   display: flex;
   justify-content: center;
+  margin-bottom: 3vw;
 }
 
 .abt-text p {
@@ -1456,7 +1456,6 @@ Card Component */
   }
 }
 
-
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
@@ -1498,7 +1497,6 @@ Card Component */
   width: 87%;
   box-shadow: 7px 7px 7px #e2e2e2;
 }
-
 
 .drp-down .open .side-drawer li {
   margin-left: 15px;

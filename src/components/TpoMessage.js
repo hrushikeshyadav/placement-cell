@@ -1,16 +1,43 @@
-import React from 'react'
+import React from "react";
 
-const Messaget = props => (
-    <div>
-        <h1 className='msgh' >TPO's Message</h1>
+const Messaget = (props) => (
+  <div>
+    <h1 className="msgh">TPO's Message</h1>
+    <p className="msgp">
+      Uka Tarsadia University is an exciting place to study and grow. It is a
+      place where thinkers become leaders, a place where the thirst for
+      knowledge fuels our desire for distinction. A meticulous academic
+      procedure has equipped students with proficient and special skills to do
+      extremely well in various demanding situations with ease and confidence.
+    </p>
+    <br />
+    <p className="msgp">
+      Training and Placement establishes the vital link between students and
+      prospective employers to facilitate training and placement of students as
+      they begin their career after graduation. We work relentlessly to ensure
+      job placements for our students and provide them with top career
+      opportunities.
+    </p>
+    <br />
+    <p className="msgp">
+      We also organize Industrial Visits, Summer Internship, Industrial Training
+      and Expert Lectures for students to prepare them for opportunities that
+      await them. Our high-quality education and efforts of the T&P Team help
+      our students dream big and stay committed to realize them. With great
+      pleasure and honour, we invite industries and corporate houses on our
+      campus and our students to take advantage of all Training and Placement
+      activities.
+    </p>
+    <br />
+    <p className="cred">Prof. (Dr.) Pranav Shah</p>
+    <p className="cred">Training and Placement Officer, CGPIT, UTU</p>
+    <p className="cred">
+      Email: <a href="mailto:placement@utu.ac.in">placement@utu.ac.in</a>
+    </p>
+    <p className="cred" style={{ marginBottom: "2vw" }}>
+      Cell: +91- 9979296582
+    </p>
+  </div>
+);
 
-        <p className='msgp'>The Training and Placement cell of Indian Institute of Information Technology, Lucknow is an integral part of the academics It helps in shaping the careers of our students in the field of Information Technology. </p><br />
-        <p className='msgp'>The Training & Placement Cell works diligently to provide a workable environment to the Students that enables them to understand the requirements of corporate & Industrial world. Its aim is to find an appropriate place for students in the corporate. The Cell continuously explore different areas of opportunities in the field of IT for Placement.</p><br /><p className='msgp'> The soft skill & personality development workshops help students to polish their communication skills, build confidence, to make students industry fit professionals. We organize guest lectures, industrial visits & are always striving to strengthen Industrial Interface.
-        I express my sincere gratitude to all the organizations that have extended their active co-operation to the T & P Cell in accomplishing its endeavour successfully. I feel privileged to present our students to your esteemed organizations. </p><br />
-        <p className='msgp'>I look forward to your cooperation in the placements of our students.</p>
-        <br /><p className='cred' >Dr Vishal Krishna Singh</p>
-        <p className='cred' style={{ marginBottom: '2vw' }}>Training and Placement Officer, IIIT Luckow</p>
-    </div>
-)
-
-export default Messaget
+export default Messaget;
